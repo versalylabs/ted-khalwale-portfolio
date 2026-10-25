@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <!-- Window Background -->
+  <rect width="800" height="500" rx="16" fill="#090D1C"/>
+  <rect x="1" y="1" width="798" height="498" rx="15" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+  <!-- Top Navigation Bar -->
+  <rect width="800" height="48" fill="#060914" rx="16 16 0 0"/>
+  <circle cx="24" cy="24" r="5" fill="#EF4444"/>
+  <circle cx="40" cy="24" r="5" fill="#F59E0B"/>
+  <circle cx="56" cy="24" r="5" fill="#10B981"/>
+  <text x="80" y="28" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="12">RetailFlow — Inventory &amp; POS v2.4</text>
+  <rect x="660" y="14" width="116" height="22" rx="11" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.4)"/>
+  <circle cx="672" cy="25" r="3" fill="#10B981"/>
+  <text x="682" y="29" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">DB IN SYNC</text>
+
+  <!-- Left Sidebar -->
+  <rect x="0" y="48" width="160" height="452" fill="#070A18"/>
+  <line x1="160" y1="48" x2="160" y2="500" stroke="rgba(255,255,255,0.06)"/>
+  
+  <!-- Sidebar Menu Items -->
+  <rect x="12" y="68" width="136" height="32" rx="8" fill="rgba(168,85,247,0.15)" stroke="rgba(168,85,247,0.4)"/>
+  <text x="32" y="88" fill="#E2E8F0" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">📦 Inventory</text>
+  <text x="32" y="126" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">🛒 POS Terminal</text>
+  <text x="32" y="162" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">📄 Invoices</text>
+  <text x="32" y="198" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">📊 Sales Ledger</text>
+  <text x="32" y="234" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">⚙️ Branch Settings</text>
+
+  <!-- Main Content Dashboard -->
+  <!-- Stat Cards Row -->
+  <g transform="translate(180, 68)">
+    <!-- Card 1: Total Stock SKUs -->
+    <rect width="186" height="84" rx="12" fill="#0D1326" stroke="rgba(255,255,255,0.06)"/>
+    <text x="16" y="28" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11">ACTIVE SKUs</text>
+    <text x="16" y="58" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="24" font-weight="700">1,482</text>
+    <text x="16" y="74" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="10">+24 added today</text>
+
+    <!-- Card 2: Low Stock Warning -->
+    <rect x="202" width="186" height="84" rx="12" fill="#0D1326" stroke="rgba(255,255,255,0.06)"/>
+    <text x="218" y="28" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11">REORDER ALERTS</text>
+    <text x="218" y="58" fill="#FBBF24" font-family="'Syne', sans-serif" font-size="24" font-weight="700">6 Items</text>
+    <text x="218" y="74" fill="#F59E0B" font-family="'JetBrains Mono', monospace" font-size="10">Auto-po drafted</text>
+
+    <!-- Card 3: Today's POS Volume -->
+    <rect x="404" width="196" height="84" rx="12" fill="#0D1326" stroke="rgba(255,255,255,0.06)"/>
+    <text x="420" y="28" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11">DAILY CHECKOUTS</text>
+    <text x="420" y="58" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="24" font-weight="700">KES 148,500</text>
+    <text x="420" y="74" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="10">94 transactions</text>
+  </g>
+
+  <!-- Stock Table View -->
+  <g transform="translate(180, 172)">
+    <rect width="600" height="300" rx="12" fill="#0B1021" stroke="rgba(255,255,255,0.06)"/>
+    <text x="20" y="32" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="15" font-weight="700">Live Inventory Balance &amp; Transactions</text>
+
+    <!-- Table Header -->
+    <rect x="20" y="48" width="560" height="28" rx="6" fill="rgba(255,255,255,0.03)"/>
+    <text x="32" y="66" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10">ITEM SKU</text>
+    <text x="140" y="66" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10">DESCRIPTION</text>
+    <text x="320" y="66" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10">STOCK</text>
+    <text x="420" y="66" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10">STATUS</text>
+    <text x="510" y="66" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10">ACTION</text>
+
+    <!-- Row 1 -->
+    <text x="32" y="104" fill="#A855F7" font-family="'JetBrains Mono', monospace" font-size="11">SKU-9021</text>
+    <text x="140" y="104" fill="#E2E8F0" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Thermal POS Receipt Roll 80mm</text>
+    <text x="320" y="104" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11">240 pcs</text>
+    <rect x="420" y="90" width="64" height="20" rx="4" fill="rgba(16,185,129,0.15)"/>
+    <text x="432" y="104" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="10">Normal</text>
+    <text x="510" y="104" fill="#818CF8" font-family="'JetBrains Mono', monospace" font-size="11">Audit ↗</text>
+    <line x1="20" y1="120" x2="580" y2="120" stroke="rgba(255,255,255,0.04)"/>
+
+    <!-- Row 2 -->
+    <text x="32" y="148" fill="#A855F7" font-family="'JetBrains Mono', monospace" font-size="11">SKU-4810</text>
+    <text x="140" y="148" fill="#E2E8F0" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Wireless Barcode Scanner USB</text>
+    <text x="320" y="148" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11">12 pcs</text>
+    <rect x="420" y="134" width="64" height="20" rx="4" fill="rgba(245,158,11,0.15)"/>
+    <text x="430" y="148" fill="#FBBF24" font-family="'JetBrains Mono', monospace" font-size="10">Low (8)</text>
+    <text x="510" y="148" fill="#818CF8" font-family="'JetBrains Mono', monospace" font-size="11">Order ↗</text>
+    <line x1="20" y1="164" x2="580" y2="164" stroke="rgba(255,255,255,0.04)"/>
+
+    <!-- Row 3 -->
+    <text x="32" y="192" fill="#A855F7" font-family="'JetBrains Mono', monospace" font-size="11">SKU-1120</text>
+    <text x="140" y="192" fill="#E2E8F0" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Cash Drawer 4-Bill / 8-Coin</text>
+    <text x="320" y="192" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11">45 pcs</text>
+    <rect x="420" y="178" width="64" height="20" rx="4" fill="rgba(16,185,129,0.15)"/>
+    <text x="432" y="192" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="10">Normal</text>
+    <text x="510" y="192" fill="#818CF8" font-family="'JetBrains Mono', monospace" font-size="11">Audit ↗</text>
+    <line x1="20" y1="208" x2="580" y2="208" stroke="rgba(255,255,255,0.04)"/>
+
+    <!-- Row 4 -->
+    <text x="32" y="236" fill="#A855F7" font-family="'JetBrains Mono', monospace" font-size="11">SKU-7730</text>
+    <text x="140" y="236" fill="#E2E8F0" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Direct Thermal Shipping Labels</text>
+    <text x="320" y="236" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11">82 rolls</text>
+    <rect x="420" y="222" width="64" height="20" rx="4" fill="rgba(16,185,129,0.15)"/>
+    <text x="432" y="236" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="10">Normal</text>
+    <text x="510" y="236" fill="#818CF8" font-family="'JetBrains Mono', monospace" font-size="11">Audit ↗</text>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <!-- Window Background -->
+  <rect width="800" height="500" rx="16" fill="#070914"/>
+  <rect x="1" y="1" width="798" height="498" rx="15" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+  <!-- Top Nav -->
+  <rect width="800" height="48" fill="#04060F" rx="16 16 0 0"/>
+  <circle cx="24" cy="24" r="5" fill="#EF4444"/>
+  <circle cx="40" cy="24" r="5" fill="#F59E0B"/>
+  <circle cx="56" cy="24" r="5" fill="#10B981"/>
+  <text x="80" y="28" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="12">TaskOrbit — Sprint 24 Milestone Board</text>
+  <rect x="650" y="14" width="126" height="22" rx="11" fill="rgba(168,85,247,0.15)" stroke="rgba(168,85,247,0.4)"/>
+  <text x="664" y="29" fill="#D8B4FE" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">+ NEW TASK</text>
+
+  <!-- Kanban Columns Area -->
+  <g transform="translate(24, 68)">
+    
+    <!-- Column 1: Backlog -->
+    <rect width="236" height="400" rx="12" fill="#0C1022" stroke="rgba(255,255,255,0.06)"/>
+    <text x="16" y="28" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">BACKLOG (4)</text>
+    
+    <!-- Card 1.1 -->
+    <rect x="12" y="44" width="212" height="96" rx="8" fill="#121832" stroke="rgba(255,255,255,0.06)"/>
+    <rect x="24" y="56" width="60" height="18" rx="4" fill="rgba(99,102,241,0.2)"/>
+    <text x="32" y="69" fill="#A5B4FC" font-family="'JetBrains Mono', monospace" font-size="9">FEATURE</text>
+    <text x="24" y="94" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">CSV Export for Audit Reports</text>
+    <text x="24" y="122" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10">Est: 3h · Assigned: TK</text>
+
+    <!-- Card 1.2 -->
+    <rect x="12" y="152" width="212" height="96" rx="8" fill="#121832" stroke="rgba(255,255,255,0.06)"/>
+    <rect x="24" y="164" width="56" height="18" rx="4" fill="rgba(245,158,11,0.2)"/>
+    <text x="32" y="177" fill="#FCD34D" font-family="'JetBrains Mono', monospace" font-size="9">UI/UX</text>
+    <text x="24" y="202" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">Refine Mobile Bottom Drawer</text>
+    <text x="24" y="230" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10">Est: 2h · In review</text>
+
+    <!-- Column 2: In Progress -->
+    <rect x="256" width="236" height="400" rx="12" fill="#0C1022" stroke="rgba(255,255,255,0.06)"/>
+    <text x="272" y="28" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">IN PROGRESS (2)</text>
+
+    <!-- Card 2.1 (Active Dragged Card) -->
+    <rect x="268" y="44" width="212" height="106" rx="8" fill="#1A2244" stroke="#6366F1" stroke-width="1.5"/>
+    <rect x="280" y="56" width="70" height="18" rx="4" fill="rgba(16,185,129,0.2)"/>
+    <text x="288" y="69" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="9">CORE API</text>
+    <text x="280" y="94" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">WebSocket Live Sync Engine</text>
+    <rect x="280" y="110" width="188" height="6" rx="3" fill="#0F172A"/>
+    <rect x="280" y="110" width="140" height="6" rx="3" fill="#38BDF8"/>
+    <text x="280" y="134" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="10">Subtasks: 7/8 done (88%)</text>
+
+    <!-- Column 3: Done / Shipped -->
+    <rect x="512" width="236" height="400" rx="12" fill="#0C1022" stroke="rgba(255,255,255,0.06)"/>
+    <text x="528" y="28" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">DONE &amp; VERIFIED (6)</text>
+
+    <!-- Card 3.1 -->
+    <rect x="524" y="44" width="212" height="96" rx="8" fill="#121832" stroke="rgba(255,255,255,0.06)"/>
+    <rect x="536" y="56" width="74" height="18" rx="4" fill="rgba(168,85,247,0.2)"/>
+    <text x="544" y="69" fill="#C084FC" font-family="'JetBrains Mono', monospace" font-size="9">SECURITY</text>
+    <text x="536" y="94" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">Role-Based Permission Rules</text>
+    <text x="536" y="122" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="10">✓ Deployed to Prod</text>
+
+    <!-- Card 3.2 -->
+    <rect x="524" y="152" width="212" height="96" rx="8" fill="#121832" stroke="rgba(255,255,255,0.06)"/>
+    <rect x="536" y="164" width="80" height="18" rx="4" fill="rgba(56,189,248,0.2)"/>
+    <text x="544" y="177" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="9">DATABASE</text>
+    <text x="536" y="202" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">Optimized Sprint Milestone Queries</text>
+    <text x="536" y="230" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="10">✓ Latency &lt; 15ms</text>
+  </g>
+</svg>

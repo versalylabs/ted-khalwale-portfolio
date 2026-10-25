@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#070913"/>
+  
+  <!-- Ambient Caustic Gradients -->
+  <circle cx="200" cy="180" r="350" fill="url(#purple_glow)" opacity="0.6"/>
+  <circle cx="1050" cy="450" r="300" fill="url(#cyan_glow)" opacity="0.4"/>
+  <circle cx="600" cy="300" r="400" fill="url(#indigo_glow)" opacity="0.25"/>
+
+  <!-- Subtle Outer Border -->
+  <rect x="24" y="24" width="1152" height="582" rx="32" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+
+  <!-- Specular top line -->
+  <line x1="200" y1="24" x2="1000" y2="24" stroke="url(#specular_line)" stroke-width="2"/>
+
+  <!-- Brand Pill -->
+  <g transform="translate(90, 85)">
+    <rect width="280" height="42" rx="21" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)"/>
+    <circle cx="24" cy="21" r="5" fill="#34D399"/>
+    <text x="42" y="26" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600" letter-spacing="2">WEB &amp; SOFTWARE DEV</text>
+  </g>
+
+  <!-- Name Headline -->
+  <text x="90" y="220" fill="#FFFFFF" font-family="'Syne', 'Plus Jakarta Sans', sans-serif" font-size="74" font-weight="800" letter-spacing="-1.5">
+    Ted Khalwale
+  </text>
+
+  <!-- Specialty Subheading -->
+  <text x="90" y="285" fill="url(#headline_grad)" font-family="'Syne', 'Plus Jakarta Sans', sans-serif" font-size="34" font-weight="700">
+    Modern Websites · Business Management Systems · Dashboards
+  </text>
+
+  <!-- Narrative Summary -->
+  <text x="90" y="355" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="400">
+    Full-stack engineering for businesses: custom software, intuitive web apps,
+  </text>
+  <text x="90" y="390" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="400">
+    operational portals, and high-performance interactive interfaces.
+  </text>
+
+  <!-- Tech Badges Strip -->
+  <g transform="translate(90, 465)">
+    <!-- Badge 1: React -->
+    <rect x="0" y="0" width="120" height="48" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+    <text x="60" y="30" text-anchor="middle" fill="#67E8F9" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="600">React.js</text>
+
+    <!-- Badge 2: Next.js -->
+    <rect x="135" y="0" width="120" height="48" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+    <text x="195" y="30" text-anchor="middle" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="600">Next.js</text>
+
+    <!-- Badge 3: TypeScript -->
+    <rect x="270" y="0" width="150" height="48" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+    <text x="345" y="30" text-anchor="middle" fill="#93C5FD" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="600">TypeScript</text>
+
+    <!-- Badge 4: Node.js -->
+    <rect x="435" y="0" width="120" height="48" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+    <text x="495" y="30" text-anchor="middle" fill="#86EFAC" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="600">Node.js</text>
+
+    <!-- Badge 5: PostgreSQL -->
+    <rect x="570" y="0" width="150" height="48" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+    <text x="645" y="30" text-anchor="middle" fill="#C4B5FD" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="600">PostgreSQL</text>
+  </g>
+
+  <!-- URL & Location Footer -->
+  <g transform="translate(90, 560)">
+    <text x="0" y="0" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="500">
+      tedkhalwale.dev · Nairobi, Kenya &amp; Global Remote
+    </text>
+  </g>
+
+  <!-- Definitions -->
+  <defs>
+    <radialGradient id="purple_glow" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#7C3AED" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyan_glow" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#06B6D4" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="indigo_glow" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#4F46E5" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="headline_grad" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#C084FC"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+    <linearGradient id="specular_line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="transparent"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+  </defs>
+</svg>

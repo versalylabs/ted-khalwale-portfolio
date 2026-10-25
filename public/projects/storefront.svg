@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <!-- Window Background -->
+  <rect width="800" height="500" rx="16" fill="#0A0D1E"/>
+  <rect x="1" y="1" width="798" height="498" rx="15" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+  <!-- Top Header Navigation -->
+  <rect width="800" height="56" fill="#060914" rx="16 16 0 0"/>
+  <circle cx="24" cy="28" r="5" fill="#EF4444"/>
+  <circle cx="40" cy="28" r="5" fill="#F59E0B"/>
+  <circle cx="56" cy="28" r="5" fill="#10B981"/>
+  <text x="80" y="32" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="14" font-weight="700">StoreFront<tspan fill="#A855F7">.dev</tspan></text>
+
+  <!-- Search input in nav -->
+  <rect x="250" y="14" width="300" height="28" rx="14" fill="#0D1326" stroke="rgba(255,255,255,0.1)"/>
+  <text x="270" y="32" fill="#64748B" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Search products, categories, SKU...</text>
+
+  <!-- Cart pill -->
+  <rect x="670" y="14" width="100" height="28" rx="14" fill="rgba(168,85,247,0.15)" stroke="rgba(168,85,247,0.4)"/>
+  <text x="690" y="32" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11">🛒 Cart (3)</text>
+
+  <!-- Hero Promo Banner -->
+  <g transform="translate(30, 76)">
+    <rect width="740" height="110" rx="12" fill="url(#hero_store_grad)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="32" y="44" fill="#A78BFA" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">HEADLESS E-COMMERCE ENGINE</text>
+    <text x="32" y="74" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="24" font-weight="800">Fast Discovery &amp; Instant Checkout</text>
+    <text x="32" y="94" fill="#CBD5E1" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Optimistic local cart sync · Sub-50ms filtering · Stripe integration</text>
+  </g>
+
+  <!-- Product Grid (3 items) -->
+  <g transform="translate(30, 204)">
+    <!-- Product 1 -->
+    <rect width="232" height="270" rx="12" fill="#0D1326" stroke="rgba(255,255,255,0.06)"/>
+    <rect x="12" y="12" width="208" height="130" rx="8" fill="#141C38"/>
+    <circle cx="116" cy="77" r="32" fill="#3B82F6" opacity="0.4"/>
+    <text x="116" y="83" text-anchor="middle" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="24">👟</text>
+    <text x="16" y="166" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">Ultra-Light Runners Pro</text>
+    <text x="16" y="184" fill="#64748B" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Aerodynamic mesh footwear</text>
+    <text x="16" y="214" fill="#34D399" font-family="'Syne', sans-serif" font-size="16" font-weight="700">$120.00</text>
+    <rect x="16" y="228" width="200" height="28" rx="6" fill="#6366F1"/>
+    <text x="116" y="246" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600">Add To Cart</text>
+
+    <!-- Product 2 -->
+    <rect x="254" width="232" height="270" rx="12" fill="#0D1326" stroke="rgba(255,255,255,0.06)"/>
+    <rect x="266" y="12" width="208" height="130" rx="8" fill="#141C38"/>
+    <circle cx="370" cy="77" r="32" fill="#A855F7" opacity="0.4"/>
+    <text x="370" y="83" text-anchor="middle" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="24">🎧</text>
+    <text x="270" y="166" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">Studio Wireless ANC</text>
+    <text x="270" y="184" fill="#64748B" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Lossless spatial audio</text>
+    <text x="270" y="214" fill="#34D399" font-family="'Syne', sans-serif" font-size="16" font-weight="700">$249.00</text>
+    <rect x="270" y="228" width="200" height="28" rx="6" fill="#6366F1"/>
+    <text x="370" y="246" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600">Add To Cart</text>
+
+    <!-- Product 3 -->
+    <rect x="508" width="232" height="270" rx="12" fill="#0D1326" stroke="rgba(255,255,255,0.06)"/>
+    <rect x="520" y="12" width="208" height="130" rx="8" fill="#141C38"/>
+    <circle cx="624" cy="77" r="32" fill="#06B6D4" opacity="0.4"/>
+    <text x="624" y="83" text-anchor="middle" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="24">⌚</text>
+    <text x="524" y="166" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">Titanium Smart Watch V4</text>
+    <text x="524" y="184" fill="#64748B" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Sapphire glass · 7-day battery</text>
+    <text x="524" y="214" fill="#34D399" font-family="'Syne', sans-serif" font-size="16" font-weight="700">$189.00</text>
+    <rect x="524" y="228" width="200" height="28" rx="6" fill="#6366F1"/>
+    <text x="624" y="246" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600">Add To Cart</text>
+  </g>
+
+  <defs>
+    <linearGradient id="hero_store_grad" x1="0" y1="0" x2="740" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E1B4B"/>
+      <stop offset="60%" stop-color="#2E1065"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+</svg>

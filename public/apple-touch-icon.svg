@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <rect width="180" height="180" rx="40" fill="#070913"/>
+  <rect x="6" y="6" width="168" height="168" rx="34" stroke="url(#border_grad)" stroke-width="6"/>
+  <path d="M68 62L40 90L68 118" stroke="url(#code_l)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M112 62L140 90L112 118" stroke="url(#code_r)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M98 52L82 128" stroke="#818CF8" stroke-width="10" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="border_grad" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="code_l" x1="40" y1="62" x2="68" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C084FC"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="code_r" x1="112" y1="62" x2="140" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+</svg>

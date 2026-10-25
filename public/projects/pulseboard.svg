@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <!-- Window Background -->
+  <rect width="800" height="500" rx="16" fill="#070915"/>
+  <rect x="1" y="1" width="798" height="498" rx="15" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+  <!-- Top Nav -->
+  <rect width="800" height="48" fill="#050711" rx="16 16 0 0"/>
+  <circle cx="24" cy="24" r="5" fill="#EF4444"/>
+  <circle cx="40" cy="24" r="5" fill="#F59E0B"/>
+  <circle cx="56" cy="24" r="5" fill="#10B981"/>
+  <text x="80" y="28" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="12">PulseBoard Analytics — Executive KPIs</text>
+  <rect x="620" y="14" width="156" height="22" rx="11" fill="rgba(99,102,241,0.15)" stroke="rgba(99,102,241,0.4)"/>
+  <circle cx="632" cy="25" r="3" fill="#6366F1"/>
+  <text x="642" y="29" fill="#A5B4FC" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">LAST 30 DAYS (LIVE)</text>
+
+  <!-- Stat Cards Row -->
+  <g transform="translate(30, 68)">
+    <!-- KPI 1 -->
+    <rect width="170" height="80" rx="12" fill="#0C1022" stroke="rgba(255,255,255,0.06)"/>
+    <text x="16" y="26" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11">TOTAL REVENUE</text>
+    <text x="16" y="54" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="22" font-weight="700">$48,290</text>
+    <text x="16" y="70" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="10">↑ +14.2% vs last mo</text>
+
+    <!-- KPI 2 -->
+    <rect x="190" width="170" height="80" rx="12" fill="#0C1022" stroke="rgba(255,255,255,0.06)"/>
+    <text x="206" y="26" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11">ACTIVE USERS</text>
+    <text x="206" y="54" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="22" font-weight="700">3,420</text>
+    <text x="206" y="70" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="10">↑ +8.5% retention</text>
+
+    <!-- KPI 3 -->
+    <rect x="380" width="170" height="80" rx="12" fill="#0C1022" stroke="rgba(255,255,255,0.06)"/>
+    <text x="396" y="26" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11">PIPELINE DEALS</text>
+    <text x="396" y="54" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="22" font-weight="700">92 Closed</text>
+    <text x="396" y="70" fill="#A78BFA" font-family="'JetBrains Mono', monospace" font-size="10">98.4% fulfilment</text>
+
+    <!-- KPI 4 -->
+    <rect x="570" width="170" height="80" rx="12" fill="#0C1022" stroke="rgba(255,255,255,0.06)"/>
+    <text x="586" y="26" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11">SERVER HEALTH</text>
+    <text x="586" y="54" fill="#34D399" font-family="'Syne', sans-serif" font-size="22" font-weight="700">99.98%</text>
+    <text x="586" y="70" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="10">Response: 38ms</text>
+  </g>
+
+  <!-- Big Interactive Chart Panel -->
+  <g transform="translate(30, 168)">
+    <rect width="490" height="300" rx="12" fill="#090E20" stroke="rgba(255,255,255,0.06)"/>
+    <text x="20" y="32" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="15" font-weight="700">Revenue &amp; Acquisition Velocity</text>
+    <text x="20" y="48" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10">Daily aggregated performance metrics</text>
+
+    <!-- Chart Grid Lines -->
+    <line x1="40" y1="80" x2="460" y2="80" stroke="rgba(255,255,255,0.04)"/>
+    <line x1="40" y1="130" x2="460" y2="130" stroke="rgba(255,255,255,0.04)"/>
+    <line x1="40" y1="180" x2="460" y2="180" stroke="rgba(255,255,255,0.04)"/>
+    <line x1="40" y1="230" x2="460" y2="230" stroke="rgba(255,255,255,0.04)"/>
+
+    <!-- Gradient Wave Line -->
+    <path d="M40 210 Q90 180 130 190 T220 120 T310 140 T400 90 T460 70" fill="none" stroke="url(#chart_line)" stroke-width="3.5" stroke-linecap="round"/>
+    
+    <!-- Area Under Curve -->
+    <path d="M40 210 Q90 180 130 190 T220 120 T310 140 T400 90 T460 70 L460 250 L40 250 Z" fill="url(#chart_area)" opacity="0.4"/>
+
+    <!-- Data points -->
+    <circle cx="220" cy="120" r="4.5" fill="#38BDF8" stroke="#090E20" stroke-width="2"/>
+    <circle cx="460" cy="70" r="4.5" fill="#A855F7" stroke="#090E20" stroke-width="2"/>
+
+    <!-- Chart X Axis Labels -->
+    <text x="40" y="270" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="9">DAY 01</text>
+    <text x="140" y="270" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="9">DAY 08</text>
+    <text x="240" y="270" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="9">DAY 15</text>
+    <text x="340" y="270" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="9">DAY 22</text>
+    <text x="435" y="270" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="9">DAY 30</text>
+  </g>
+
+  <!-- Right Distribution Panel -->
+  <g transform="translate(540, 168)">
+    <rect width="230" height="300" rx="12" fill="#090E20" stroke="rgba(255,255,255,0.06)"/>
+    <text x="18" y="32" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="14" font-weight="700">Conversion Channels</text>
+
+    <!-- Donut Representation -->
+    <circle cx="115" cy="110" r="50" fill="none" stroke="#1E293B" stroke-width="16"/>
+    <circle cx="115" cy="110" r="50" fill="none" stroke="#A855F7" stroke-width="16" stroke-dasharray="160 314" stroke-dashoffset="40"/>
+    <circle cx="115" cy="110" r="50" fill="none" stroke="#38BDF8" stroke-width="16" stroke-dasharray="90 314" stroke-dashoffset="200"/>
+    <text x="115" y="115" text-anchor="middle" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="16" font-weight="700">78%</text>
+
+    <!-- Channel Breakdown -->
+    <g transform="translate(18, 195)">
+      <circle cx="6" cy="6" r="4" fill="#A855F7"/>
+      <text x="18" y="9" fill="#E2E8F0" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Direct Web Portal</text>
+      <text x="180" y="9" fill="#A855F7" font-family="'JetBrains Mono', monospace" font-size="11">54%</text>
+
+      <circle cx="6" cy="32" r="4" fill="#38BDF8"/>
+      <text x="18" y="35" fill="#E2E8F0" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Client Referrals</text>
+      <text x="180" y="35" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="11">28%</text>
+
+      <circle cx="6" cy="58" r="4" fill="#64748B"/>
+      <text x="18" y="61" fill="#E2E8F0" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">API Integrations</text>
+      <text x="180" y="61" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11">18%</text>
+    </g>
+  </g>
+
+  <defs>
+    <linearGradient id="chart_line" x1="40" y1="210" x2="460" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="60%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="chart_area" x1="250" y1="70" x2="250" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

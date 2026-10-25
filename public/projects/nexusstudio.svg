@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <!-- Window Background -->
+  <rect width="800" height="500" rx="16" fill="#080A14"/>
+  <rect x="1" y="1" width="798" height="498" rx="15" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+  <!-- Top Nav -->
+  <rect width="800" height="48" fill="#05070E" rx="16 16 0 0"/>
+  <circle cx="24" cy="24" r="5" fill="#EF4444"/>
+  <circle cx="40" cy="24" r="5" fill="#F59E0B"/>
+  <circle cx="56" cy="24" r="5" fill="#10B981"/>
+  <text x="80" y="28" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="12">NexusStudio.design — Lighthouse 100/100 Web Architecture</text>
+  <rect x="660" y="14" width="116" height="22" rx="11" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.4)"/>
+  <text x="672" y="29" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">⚡ 100/100 CWV</text>
+
+  <!-- Website Mockup View -->
+  <g transform="translate(40, 76)">
+    <!-- Brand Pill -->
+    <rect width="210" height="26" rx="13" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)"/>
+    <circle cx="14" cy="13" r="3.5" fill="#A855F7"/>
+    <text x="26" y="17" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" letter-spacing="1">DIGITAL BRANDING &amp; WEB</text>
+
+    <!-- Headline -->
+    <text x="0" y="70" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="34" font-weight="800" letter-spacing="-1">
+      Modern Websites That Drive Business Results.
+    </text>
+
+    <!-- Subheading -->
+    <text x="0" y="105" fill="#94A3B8" font-family="'Plus Jakarta Sans', sans-serif" font-size="14">
+      Engineered for lightning load speeds, semantic SEO rankings, and seamless inquiry booking.
+    </text>
+
+    <!-- CTA Row -->
+    <g transform="translate(0, 130)">
+      <rect width="160" height="38" rx="10" fill="#6366F1"/>
+      <text x="80" y="24" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600">Book Discovery Call ↗</text>
+      
+      <rect x="176" width="130" height="38" rx="10" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+      <text x="241" y="24" text-anchor="middle" fill="#CBD5E1" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="500">View Client Works</text>
+    </g>
+
+    <!-- Lighthouse Metric Badges Strip -->
+    <g transform="translate(0, 205)">
+      <rect width="720" height="150" rx="14" fill="#0C1022" stroke="rgba(255,255,255,0.06)"/>
+      <text x="24" y="32" fill="#FFFFFF" font-family="'Syne', sans-serif" font-size="14" font-weight="700">Verified Google Lighthouse Audits</text>
+
+      <!-- Badge 1: Performance 100 -->
+      <g transform="translate(36, 56)">
+        <circle cx="36" cy="36" r="32" fill="none" stroke="#1E293B" stroke-width="6"/>
+        <circle cx="36" cy="36" r="32" fill="none" stroke="#10B981" stroke-width="6" stroke-dasharray="201" stroke-dashoffset="0"/>
+        <text x="36" y="42" text-anchor="middle" fill="#10B981" font-family="'Syne', sans-serif" font-size="18" font-weight="800">100</text>
+        <text x="36" y="85" text-anchor="middle" fill="#CBD5E1" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Performance</text>
+      </g>
+
+      <!-- Badge 2: Accessibility 100 -->
+      <g transform="translate(216, 56)">
+        <circle cx="36" cy="36" r="32" fill="none" stroke="#1E293B" stroke-width="6"/>
+        <circle cx="36" cy="36" r="32" fill="none" stroke="#10B981" stroke-width="6" stroke-dasharray="201" stroke-dashoffset="0"/>
+        <text x="36" y="42" text-anchor="middle" fill="#10B981" font-family="'Syne', sans-serif" font-size="18" font-weight="800">100</text>
+        <text x="36" y="85" text-anchor="middle" fill="#CBD5E1" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Accessibility</text>
+      </g>
+
+      <!-- Badge 3: Best Practices 100 -->
+      <g transform="translate(396, 56)">
+        <circle cx="36" cy="36" r="32" fill="none" stroke="#1E293B" stroke-width="6"/>
+        <circle cx="36" cy="36" r="32" fill="none" stroke="#10B981" stroke-width="6" stroke-dasharray="201" stroke-dashoffset="0"/>
+        <text x="36" y="42" text-anchor="middle" fill="#10B981" font-family="'Syne', sans-serif" font-size="18" font-weight="800">100</text>
+        <text x="36" y="85" text-anchor="middle" fill="#CBD5E1" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Best Practices</text>
+      </g>
+
+      <!-- Badge 4: SEO 100 -->
+      <g transform="translate(576, 56)">
+        <circle cx="36" cy="36" r="32" fill="none" stroke="#1E293B" stroke-width="6"/>
+        <circle cx="36" cy="36" r="32" fill="none" stroke="#10B981" stroke-width="6" stroke-dasharray="201" stroke-dashoffset="0"/>
+        <text x="36" y="42" text-anchor="middle" fill="#10B981" font-family="'Syne', sans-serif" font-size="18" font-weight="800">100</text>
+        <text x="36" y="85" text-anchor="middle" fill="#CBD5E1" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">SEO</text>
+      </g>
+    </g>
+  </g>
+</svg>
